@@ -1,0 +1,55 @@
+Anotações do Curso de Git e GitHub da DIO
+
+1. São programas distintos, porém complementares.
+2. Criado e desenvolvido em 2005 por Linus Torvalds, 
+na qual é um sistema de versionamento de código distribuído.
+3. O GitHub é um sistema da Microsoft, é um repositório ON LINE.
+3.1. Benefícios de usar o GitHub
+	Controle de versão;
+	Armazenamento em nuvem;
+	Trabalho em equipe;
+	Melhorar seu código;
+	Reconhecimento.
+4. O Git não possui uma GUI (Interface gráfica de Usuário) 
+e sim de um CLI (Interação de Linha de Comando), ou seja,
+utiliza-se de comandos básicos no terminal de comando do SO.
+5. No SO Windows tem a possibilidade de se utilizar o GIT Bash,
+um ambiente mais amigável para utilização do GIT.
+6. Comandos básicos no terminal
+6.1. listar diretório (pasta contidas)
+	LINUX  |  WINDOWS
+	ls     |  dir
+6.2. entrar em uma pasta específica
+	LINUX  |  WINDOWS
+	cd - para ambos os sistemas
+	*cd etc - entra no diretório específico
+6.3. voltar para a pasta anterior
+	LINUX  |  WINDOWS
+	cd..   |  cd..
+6.4. limpar a tela do terminal de comando
+	LINUX  |  WINDOWS
+	clear  |  cls
+6.5. criar uma pasta
+	LINUX  |  WINDOWS
+	mkdir - para ambos os sistemas
+6.6. criar um arquivo e verifica se já possui um arquivo com 
+o mesmo nome
+	LINUX  |  WINDOWS
+	echo "nome do arquivo">"nome do arquivo.txt" - para ambos
+6.7. deletar arquivo e diretório
+	LINUX  |  WINDOWS
+	rm -rf |  rmdir /S /Q   - apaga o diretório por completo
+		 |  del   -  apaga apenas as pastas contidas no diretório
+
+7. Como funciona o GIT?
+	Se utiliza do SHA1: criptografia de dados em 40 caracteres,
+	ou seja, é um conjunto de funções hash criptográficas
+	projetada pela NSA.
+8. Objetos Fundamentais do GIT
+	Blobs
+	Trees
+	Commit
+9. Comandos básicos do GIT
+	git init
+	git add
+	git commit
